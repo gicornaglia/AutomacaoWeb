@@ -22,11 +22,11 @@ namespace ExemplosWeb
         [TestInitialize]
         public void MyTestInitialize()
         {
-            ChromeDriver = new ChromeDriver("Deploy");
-            ChromeDriver.Url = "https://www.magazineluiza.com.br/";
-            ChromeDriver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(60); //Comando para que toda vez que mudar a URL ele esperar 60 segundos
-            ChromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(60); // Comando para toda esperar 60 segundos para procurar o elemento e não quebrar 
-            ChromeDriver.Manage().Window.Maximize();
+            //ChromeDriver = new ChromeDriver("Deploy");
+            //ChromeDriver.Url = "";
+            //ChromeDriver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(60); //Comando para que toda vez que mudar a URL ele esperar 60 segundos
+            //ChromeDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(60); // Comando para toda esperar 60 segundos para procurar o elemento e não quebrar 
+            //ChromeDriver.Manage().Window.Maximize();
             Driver = new EventFiringWebDriver(ChromeDriver);
 
             //Esse comando, criamos uma variavel testResultDir,usei o metodo path para combinar dois caminhos (onde esta a pasta bin, e cria uma´pasta testeResults)
