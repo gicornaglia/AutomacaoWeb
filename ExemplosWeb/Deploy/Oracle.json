@@ -1,0 +1,5 @@
+﻿// adiciono a informações das propriedade da conexão 
+{
+    "COM_MTN_TA": "user id=APLIC_FAREMT;password=DATA#1620;data source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=mgora10051.energisa.corp)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=COMMTNTA)))",
+    "COM_SPR_HO": "user id=aplic_faress;password=dono;data source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=mgdpx10001.energisa.corp)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=COMSPRHO)))"
+}
